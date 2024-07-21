@@ -1,35 +1,20 @@
-import 'package:beer_app/presentation/screens/login_screen.dart';
-import 'package:beer_app/theme.dart';
 import 'package:flutter/material.dart';
+import 'package:photos_app/presentation/screens/login/login_screen.dart';
+import 'package:photos_app/presentation/screens/photos_list/photo_screen.dart';
+import 'package:photos_app/theme.dart';
 
-class App extends StatelessWidget {
-  const App({super.key});
+class PhotosApp extends StatelessWidget {
+  const PhotosApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Photos App',
       theme: getLightTheme(),
       home: const LoginScreen(),
       routes: {
-        '/main': (context) => const MainScreen(),
+        '/main': (context) => PhotosScreen(),
       },
-    );
-  }
-}
-
-class MainScreen extends StatelessWidget {
-  const MainScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Main Screen'),
-      ),
-      body: const Center(
-        child: Text('Welcome to the main screen!'),
-      ),
     );
   }
 }

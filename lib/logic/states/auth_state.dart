@@ -1,4 +1,4 @@
-import 'package:beer_app/data/models/user.dart';
+import 'package:photos_app/data/models/user.dart';
 
 import 'base_state.dart';
 
