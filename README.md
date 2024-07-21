@@ -1,16 +1,28 @@
-# beer_app
+# Photos App
 
-A new Flutter project.
+This is a Flutter application that allows users to log in and view a feed of photos.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- User authentication
+- View a feed of photos
+- Search functionality
+- Local sorting and grouping by name
+- Refresh feed
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/yourusername/photos_app.git
+   cd photos_app
+2. **Install dependencies**
+   ```sh
+   flutter pub get
+3. **Run the application**
+   ```sh
+   flutter run
+   
+## Compatibility
+   - **Android**: API level 28 and above
+   - **iOS**: Latest version and 2 previous versions
