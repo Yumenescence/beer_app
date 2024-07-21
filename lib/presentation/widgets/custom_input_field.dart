@@ -7,6 +7,7 @@ class CustomInputField extends StatelessWidget {
   final String? Function(String?)? validator;
   final FocusNode? focusNode;
   final bool showError;
+  final bool enabled;
 
   const CustomInputField({
     super.key,
@@ -16,6 +17,7 @@ class CustomInputField extends StatelessWidget {
     this.validator,
     this.focusNode,
     this.showError = false,
+    this.enabled = true,
   });
 
   @override
@@ -27,6 +29,7 @@ class CustomInputField extends StatelessWidget {
           controller: controller,
           focusNode: focusNode,
           validator: showError ? validator : null,
+          enabled: enabled,
           decoration: InputDecoration(
             labelText: labelText,
             hintText: hintText,

@@ -73,6 +73,10 @@ ThemeData getLightTheme() {
     colorScheme: lightColorScheme,
     primaryColor: lightColorScheme.primary,
     scaffoldBackgroundColor: lightColorScheme.background,
+    appBarTheme: AppBarTheme(
+      backgroundColor: lightColorScheme.onPrimary,
+      surfaceTintColor: Colors.transparent,
+    ),
     inputDecorationTheme: InputDecorationTheme(
       border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(8.0),
@@ -96,6 +100,13 @@ ThemeData getLightTheme() {
       ),
       labelStyle: TextStyle(color: lightColorScheme.onSurface),
       errorStyle: TextStyle(color: lightColorScheme.error),
+    ),
+    scrollbarTheme: ScrollbarThemeData(
+      thumbColor: WidgetStateProperty.all(lightColorScheme.outlineVariant),
+      thickness: WidgetStateProperty.all(3),
+      thumbVisibility: const WidgetStatePropertyAll(true),
+      interactive: true,
+      radius: const Radius.circular(100),
     ),
   );
 }

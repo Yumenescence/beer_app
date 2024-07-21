@@ -1,10 +1,10 @@
-import 'package:beer_app/data/repositories/auth_repository.dart';
-import 'package:beer_app/logic/blocs/auth_bloc.dart';
-import 'package:beer_app/logic/states/auth_state.dart';
-import 'package:beer_app/logic/states/base_state.dart';
-import 'package:beer_app/presentation/widgets/login_form.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:photos_app/data/repositories/auth_repository.dart';
+import 'package:photos_app/logic/blocs/auth_bloc.dart';
+import 'package:photos_app/logic/states/auth_state.dart';
+import 'package:photos_app/logic/states/base_state.dart';
+import 'package:photos_app/presentation/screens/login/widgets/login_form.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
