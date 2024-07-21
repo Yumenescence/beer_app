@@ -1,6 +1,6 @@
 {
-    "name": "beer_app",
-    "short_name": "beer_app",
+    "name": "photos_app",
+    "short_name": "photos_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

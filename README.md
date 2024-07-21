@@ -1,4 +1,4 @@
-# beer_app
+# photos_app
 
 A new Flutter project.
 

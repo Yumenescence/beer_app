@@ -1,4 +1,4 @@
-name: beer_app
+name: photos_app
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   flutter_bloc: ^8.1.6
   dio: ^5.5.0+1
+  equatable: ^2.0.5
+  cached_network_image: ^3.3.1
 
 dev_dependencies:
   flutter_test:
