@@ -8,8 +8,10 @@ import 'package:photos_app/logic/states/photo_state.dart';
 import 'package:photos_app/presentation/screens/photos_list/widgets/photo_list.dart';
 
 class PhotosScreen extends StatefulWidget {
+  const PhotosScreen({super.key});
+
   @override
-  _PhotosScreenState createState() => _PhotosScreenState();
+  State<PhotosScreen> createState() => _PhotosScreenState();
 }
 
 class _PhotosScreenState extends State<PhotosScreen> {

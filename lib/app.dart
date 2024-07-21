@@ -13,7 +13,7 @@ class PhotosApp extends StatelessWidget {
       theme: getLightTheme(),
       home: const LoginScreen(),
       routes: {
-        '/main': (context) => PhotosScreen(),
+        '/main': (context) => const PhotosScreen(),
       },
     );
   }

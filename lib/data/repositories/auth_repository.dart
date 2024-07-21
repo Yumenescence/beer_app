@@ -24,7 +24,7 @@ class AuthRepository {
       } else {
         throw Exception('Failed to load user: ${response.statusCode}');
       }
-    } on DioError catch (e) {
+    } on DioException catch (e) {
       if (e.response != null) {
         throw Exception('Failed to load user: ${e.response?.statusCode}');
       } else {
