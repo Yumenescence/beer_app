@@ -1,4 +1,4 @@
-package com.example.beer_app
+package com.example.photos_app
 
 import io.flutter.embedding.android.FlutterActivity
 
